@@ -84,7 +84,7 @@ export default function PoliticaPrivacidadPage() {
                 <li>Retirar el consentimiento en cualquier momento</li>
               </ul>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                Para ejercer estos derechos, puede contactarnos en info@eliteauto.es
+                Para ejercer estos derechos, puede contactarnos en info@eliteautoes.com
               </p>
             </Card>
 

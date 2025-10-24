@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { Instagram, Facebook, Mail, Phone, MapPin } from "lucide-react"
+import { Mail, Phone, MapPin } from "lucide-react"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -7,7 +8,12 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-semibold mb-4 text-foreground">Elite Auto</h3>
+            <Link href="/" className="text-2xl font-semibold tracking-tight text-foreground">
+              <div className="flex items-center gap-4">
+                <Image src="/favicon.ico" alt="Logo" width={64} height={48} />
+                Elite Auto
+              </div>
+            </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Servicios premium de detailing automotriz para los más exigentes.
             </p>
@@ -82,7 +88,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Mail size={16} />
-                <span>info@eliteauto.es</span>
+                <span>info@eliteautoes.com</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPin size={16} />
@@ -94,7 +100,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Elite Auto Detailing. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} EliteAutoES.com. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

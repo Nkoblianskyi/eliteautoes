@@ -4,6 +4,7 @@ import Link from "next/link"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -19,7 +20,10 @@ export function Navigation() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="text-2xl font-semibold tracking-tight text-foreground">
-            Elite Auto
+            <div className="flex items-center gap-4">
+              <Image src="/favicon.ico" alt="Logo" width={64} height={48} />
+              Elite Auto
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
