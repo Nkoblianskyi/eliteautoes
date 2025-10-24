@@ -171,7 +171,7 @@ export default function ContactoPage() {
                   value={formData.telefono}
                   onChange={handleChange}
                   className="bg-background border-border text-foreground"
-                  placeholder="+34 123 456 789"
+                  placeholder="+34 785 245 145"
                 />
               </div>
 

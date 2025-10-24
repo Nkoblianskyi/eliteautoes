@@ -119,7 +119,7 @@ export default function PoliticaPrivacidadPage() {
               </p>
               <ul className="space-y-2 text-muted-foreground leading-relaxed ml-4">
                 <li>Por correo electrónico: info@eliteautoes.com</li>
-                <li>Por teléfono: +34 123 456 789</li>
+                <li>Por teléfono: +34 785 245 145</li>
                 <li>Por correo postal: Madrid, España</li>
               </ul>
             </Card>
