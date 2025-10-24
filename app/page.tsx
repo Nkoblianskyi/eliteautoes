@@ -59,22 +59,22 @@ export default function HomePage() {
 
   const features = [
     {
-      icon: Sparkles,
+
       title: "Productos Premium",
       description: "Utilizamos solo los mejores productos del mercado",
     },
     {
-      icon: Shield,
+
       title: "Garantía de Calidad",
       description: "Satisfacción garantizada en cada servicio",
     },
     {
-      icon: Clock,
+
       title: "Servicio Rápido",
       description: "Respetamos tu tiempo sin comprometer la calidad",
     },
     {
-      icon: Award,
+
       title: "Profesionales Certificados",
       description: "Equipo experto con años de experiencia",
     },
@@ -121,7 +121,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((feature, index) => (
               <Card key={index} className="p-6 bg-card border-border hover:border-primary/50 transition-colors">
-                <feature.icon className="w-12 h-12 text-primary mb-4" />
+
                 <h3 className="text-lg font-semibold mb-2 text-foreground">{feature.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">{feature.description}</p>
               </Card>
